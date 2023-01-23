@@ -1,25 +1,26 @@
 import { Outlet, Link } from "react-router-dom";
 
+
 function Layout() {
   return (
     <>
         <nav className="navv">
             <ul>
-            <li style={{listStyle: 'none', marginBottom: '0.8em', }}>
+            <li style={{listStyle: 'none', marginBottom: '1.5em', }}>
                 <Link className="main-met" to="/home">Main Metrics</Link>
             </li>
             
             <div style={{display: 'flex',}}>
                 <li style={{listStyle: 'none',}}>
-                    <Link style={{textDecoration: 'none',}} to="/LastHour">Last hour</Link>
+                    <Link className="last-hour" to="/LastHour">Last hour</Link>
                 </li>
                     
                 <li style={{listStyle: 'none',}}>
-                    <Link style={{textDecoration: 'none',}}  to="/today">Today</Link>
+                    <Link className="today"  to="/today">Today</Link>
                 </li>
 
                 <li style={{listStyle: 'none', }}>
-                    <Link style={{textDecoration: 'none',}}  to="/yesterday">Yesterday</Link>
+                    <Link className="yesterday"  to="/yesterday">Yesterday</Link>
                 </li>
 
                 <li style={{listStyle: 'none',}}>
@@ -28,7 +29,6 @@ function Layout() {
             </div>
             </ul>
         </nav>
-
         <Outlet />
     </>
     

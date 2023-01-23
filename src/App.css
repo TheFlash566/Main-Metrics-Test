@@ -6,7 +6,7 @@
 
 .main-met {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
     color: black;
     text-decoration: none;
 }
@@ -20,9 +20,122 @@
 }
 
 .last3 {
+    text-decoration: none;
     padding: 10px 30px;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     color: black;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    font-size: 18px;
 }
+
+.last-hour {
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid whitesmoke;
+    color: black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 18px;
+}
+
+.today {
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid whitesmoke;
+    color: black;
+    font-size: 18px;
+}
+
+.yesterday {
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid whitesmoke;
+    color: white;
+    background-color: #5e5ed5;
+    font-size: 18px;
+}
+
+.err500{
+    font-size: 25px;
+    position: absolute;
+    z-index: 1;
+}
+
+.err500::after{
+    position: relative;
+    z-index: -1;
+    content: '';
+    height: 10px;
+    left: 0;
+    bottom: 0;
+}
+
+    .search-figure {
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        font-size: 18px;
+        margin-left: 10px;
+        background-color: green;
+        padding: 4px 10px;
+        color: white;
+    }
+
+    .num-yesterday {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .num-ls-friday {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .clk-num-lf {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .clk-num-yesterday {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+
+    .click-figure {
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        font-size: 18px;
+        margin-left: 10px;
+        padding: 4px 10px;
+        color: white;
+        background-color: red;
+    }
+
+    .click-num-ys {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .click-num-lf{
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .ctr-num {
+        color: red;
+    }
+
+    .sale-num-ys {
+        font-size: 18px;
+        margin-left: 10px;  
+    }
+
+    .sale-num-lf {
+        font-size: 18px;
+        margin-left: 10px;
+    }

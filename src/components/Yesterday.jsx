@@ -1,7 +1,13 @@
+import Stabilities from "./Stabilities";
+import MultiColors from "./MultiColors";
+import Traffic from "./Traffic";
+
 function Yesterday () {
     return (
         <div>
-            <h1>Yesterday</h1>
+            <Stabilities />
+            <MultiColors />
+            <Traffic />
         </div>
     )
 }
