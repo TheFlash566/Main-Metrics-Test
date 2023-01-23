@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import Yesterday from "./Yesterday";
 
 
 function Layout() {
@@ -6,8 +7,8 @@ function Layout() {
     <>
         <nav className="navv">
             <ul>
-            <li style={{listStyle: 'none', marginBottom: '1.5em', }}>
-                <Link className="main-met" to="/home">Main Metrics</Link>
+            <li style={{listStyle: 'none', marginBottom: '1.5em',paddingTop: '3em' }}>
+                <Link className="main-met" to="/yesterday">Main Metrics</Link>
             </li>
             
             <div style={{display: 'flex',}}>
@@ -20,7 +21,7 @@ function Layout() {
                 </li>
 
                 <li style={{listStyle: 'none', }}>
-                    <Link className="yesterday"  to="/yesterday">Yesterday</Link>
+                    <Link act className="yesterday"  to="/">Yesterday</Link>
                 </li>
 
                 <li style={{listStyle: 'none',}}>
@@ -29,6 +30,8 @@ function Layout() {
             </div>
             </ul>
         </nav>
+
+        <Yesterday />
         <Outlet />
     </>
     

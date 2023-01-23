@@ -1,6 +1,6 @@
 function Stabilities () {
     return (
-        <div style={{display: 'flex', margin: 'auto', width: '65%',
+        <div style={{display: 'flex', margin: 'auto', paddingTop: '1em', width: '65%',
         gap: '6em',}}>
             <ul style={{fontSize: '30px', color: 'lime',}}>
                 <li> <p style={{color: 'black'}}>Errors: 0,12%</p></li>

@@ -1,9 +1,9 @@
 function Traffic () {
     return (
-        <div style={{width: '70%', margin: 'auto', paddingTop: '3em',
+        <div style={{width: '70%', margin: 'auto',
             paddingBottom: '3em',}}>
             <div style={{display: 'flex', width: '100%', gap: '25px',}}>
-                <div style={{display: 'flex', flexDirection: 'column', width: '6%', marginTop: '1em',}}>
+                <div style={{display: 'flex', flexDirection: 'column', width: '6%', marginTop: '2em',}}>
                     <i style={{color: 'white', padding: '18px 16px', fontSize: '25px', background: '#5b5bdd', borderRadius: '50%',}} class="fa-solid fa-filter"></i>
                     <i style={{fontSize: '60px', paddingTop: '18px', paddingLeft: '4px',}} class="fa-sharp fa-solid fa-arrow-down"></i>
                 </div>
@@ -23,7 +23,7 @@ function Traffic () {
             </div>
 
             <div style={{display: 'flex', width: '100%', gap: '25px',}}>
-                <div style={{display: 'flex', flexDirection: 'column', width: '6%', marginTop: '1em',}}>
+                <div style={{display: 'flex', flexDirection: 'column', width: '6%', marginTop: '2em',}}>
                     <i style={{color: 'white', padding: '18px 16px', fontSize: '25px', background: '#5b5bdd', borderRadius: '50%',}} class="fa-solid fa-hand-pointer"></i>
                     <i style={{fontSize: '55px',  paddingLeft: '8px',}} class="fa-sharp fa-solid fa-arrow-down"></i>
                 </div>
@@ -42,7 +42,7 @@ function Traffic () {
             </div>
 
             <div style={{display: 'flex', width: '100%', gap: '25px',}}>
-                <div style={{display: 'flex', flexDirection: 'column', width: '6%', marginTop: '1em',}}>
+                <div style={{display: 'flex', flexDirection: 'column', width: '6%', marginTop: '2em',}}>
                     <i style={{color: 'white', padding: '18px 16px', fontSize: '25px', background: '#5b5bdd', borderRadius: '50%',}} class="fa-solid fa-cart-shopping"></i>
                 </div>
                 <div style={{display: 'flex', paddingBottom: '2em', borderBottom: '2px solid rgb(169, 156, 156)'}}>

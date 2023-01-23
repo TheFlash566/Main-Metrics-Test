@@ -4,9 +4,9 @@ import Traffic from "./Traffic";
 
 function Yesterday () {
     return (
-        <div>
+        <div style={{ paddingTop: '1em',}}>
             <Stabilities />
-            <MultiColors />
+            
             <Traffic />
         </div>
     )

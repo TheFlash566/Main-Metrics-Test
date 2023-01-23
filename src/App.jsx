@@ -14,11 +14,10 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-          <Route path='home' element={<Stabilities />} />
+          <Route path='yesterday' element={<Yesterday />} />
             <Route path="LastHour" element={<LastHour />} />
             <Route path="lastThreeDays" element={<LastThreeDays />} />
             <Route path='today' element={<Today />} />
-            <Route path='yesterday' element={<Yesterday />} />
           </Route>
         </Routes> 
     </BrowserRouter>
