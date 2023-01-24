@@ -7,7 +7,7 @@ function Layout() {
     <>
         <nav className="navv">
             <ul>
-            <li style={{listStyle: 'none', marginBottom: '1.5em',paddingTop: '3em' }}>
+            <li style={{listStyle: 'none', marginBottom: '1.5em', }}>
                 <Link className="main-met" to="/yesterday">Main Metrics</Link>
             </li>
             
