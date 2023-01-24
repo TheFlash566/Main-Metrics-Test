@@ -6,7 +6,7 @@ function Yesterday () {
     return (
         <div style={{ paddingTop: '1em',}}>
             <Stabilities />
-            
+            <MultiColors />
             <Traffic />
         </div>
     )
